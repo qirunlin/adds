@@ -7,15 +7,15 @@ p2.computermove='r';
 int Prps;
 int Crps;
 
-    if(p1.playermove=='r'){
+    if(p1.playermove=='R'){
         Prps=1;
 
     }
-    if(p1.playermove=='p'){
+    if(p1.playermove=='P'){
         Prps=2;
 
     }
-    if(p1.playermove=='s'){
+    if(p1.playermove=='S'){
         Prps=3;
 
     }

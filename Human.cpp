@@ -2,7 +2,7 @@
 #include <iostream>
 
 char Human ::Pmove(){
-    std::cout<< "rps: \n";
+    std::cout<< "Enter move: ";
     std::cin>>playermove;
     return playermove; 
 
