@@ -7,6 +7,6 @@ int main(){
     Human H1;
     Computer C1;
     Referee ref1;
-    
+    ref1.refGame(H1,C1);
 
 }

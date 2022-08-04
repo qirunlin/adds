@@ -8,9 +8,9 @@ private:
 
 
 public:
-void refGame(Human p1,Computer p2);
+char refGame(Human p1,Computer p2);
 
-Referee( );
+
 
 };
 

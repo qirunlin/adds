@@ -1,11 +1,12 @@
 #include "Referee.h"
 #include<iostream>
 
-void Referee::refGame(Human p1,Computer p2){
+char Referee::refGame(Human p1,Computer p2){
 p1.Pmove();
 p2.computermove='r';
 int Prps;
 int Crps;
+char outcome;
 
     if(p1.playermove=='R'){
         Prps=1;
@@ -38,13 +39,14 @@ int Crps;
         Prps=4;
     }
     if(Prps>Crps){
-        std::cout<<"W";
+        outcome='W';
     }else if (Prps<Crps)
     {
-        std::cout<<"L";
+        outcome='L';
     }else{
-        std::cout<<"T";
+        outcome='T';
 
     }
+    return outcome;
     
 };
