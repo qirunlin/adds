@@ -38,12 +38,12 @@ int Crps;
         Prps=4;
     }
     if(Prps>Crps){
-        std::cout<<"Human wins";
+        std::cout<<"W";
     }else if (Prps<Crps)
     {
-        std::cout<<"Computer wins";
+        std::cout<<"L";
     }else{
-        std::cout<<"Draw";
+        std::cout<<"T";
 
     }
     
