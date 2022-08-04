@@ -3,9 +3,9 @@
 #include "Computer.h"
 
 int main(){
-    referee ref1;
-    human H1;
-    computer C1;
+    Referee ref1;
+    Human H1;
+    Computer C1;
     ref1.gameref(H1,C1);
 
 }

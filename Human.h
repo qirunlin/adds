@@ -1,7 +1,7 @@
 
 #ifndef HUMAN_H
 #define HUMAN_H
-class human {
+class Human {
 private:
 
 public:

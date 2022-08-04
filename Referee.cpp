@@ -1,7 +1,7 @@
 #include "Referee.h"
 #include<iostream>
 
-void referee::gameref(human p1,computer p2){
+void Referee::gameref(Human p1,Computer p2){
 p1.Pmove();
 p2.computermove='r';
 int Prps;

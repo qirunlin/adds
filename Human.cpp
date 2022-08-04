@@ -1,7 +1,7 @@
 #include "Human.h"
 #include <iostream>
 
-char human ::Pmove(){
+char Human ::Pmove(){
     std::cout<< "rps: \n";
     std::cin>>playermove;
     return playermove; 

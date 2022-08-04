@@ -1,6 +1,6 @@
 #include "Computer.h"
 
-char computer::cmove(){
+char Computer::cmove(){
     computermove='r';
     
     return computermove;
