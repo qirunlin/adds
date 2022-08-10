@@ -1,14 +1,13 @@
-
+#include "Player.h"
 #ifndef COMPUTER_H
 #define COMPUTER_H
-class Computer {
+class computer :public Player {
 private:
 
 public:
-char computermove;
-int computerscore;
+int playerid=2;
 
-char cmove();
+void Pmakemove();
 
 };
 

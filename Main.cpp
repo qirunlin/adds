@@ -1,12 +1,24 @@
 #include "Referee.h"
 #include "Human.h"
 #include "Computer.h"
-
+#include "Crescendo.h"
+#include "RandomComputer.h"
+#include <iostream>
+#include <cstdlib>
+using namespace std;
 int main(){
-   
-    Human H1;
-    Computer C1;
-    Referee ref1;
-    ref1.refGame(H1,C1);
+  
+  RandomComputer computer;
+  
+  computer.Pmakemove();
+  computer.Pmakemove();
+
+   cout<<computer.playermove;
+ 
+  
+
+// cout<<c;
+
+  
 
 }

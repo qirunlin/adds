@@ -1,9 +1,9 @@
 #include "Human.h"
 #include <iostream>
 
-char Human ::Pmove(){
-    std::cout<< "Enter move: ";
+void human ::Pmakemove(){
+    std::cout<< "rps: \n";
     std::cin>>playermove;
-    return playermove; 
+    
 
 }

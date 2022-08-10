@@ -1,13 +1,13 @@
-
+#include "Player.h"
 #ifndef HUMAN_H
 #define HUMAN_H
-class Human {
+class human : public Player {
 private:
 
 public:
-char playermove;
-int playerscore;
-char Pmove();
+int playerid=1;
+void Pmakemove();
+
 
 
 

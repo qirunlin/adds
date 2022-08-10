@@ -3,12 +3,13 @@
 #ifndef REFEREE_H
 #define REFEREE_H
 
-class Referee{
+class referee{
 private:
 
 
 public:
-char refGame(Human p1,Computer p2);
+void gameref(Player* p1,Player* p2);
+Player * winner;
 
 
 

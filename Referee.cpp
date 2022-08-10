@@ -1,32 +1,33 @@
 #include "Referee.h"
 #include<iostream>
 
-char Referee::refGame(Human p1,Computer p2){
-p1.Pmove();
-p2.computermove='r';
+void referee::gameref(Player* p1,Player* p2){
+
 int Prps;
 int Crps;
-char outcome;
 
-    if(p1.playermove=='R'){
+for(int i=0;i<6;i++){
+p1->Pmakemove();
+p2->Pmakemove();
+    if(p1->playermove=='r'){
         Prps=1;
 
     }
-    if(p1.playermove=='P'){
+    if(p1->playermove=='p'){
         Prps=2;
 
     }
-    if(p1.playermove=='S'){
+    if(p1->playermove=='s'){
         Prps=3;
 
     }
-    if(p2.computermove=='r'){
+    if(p2->playermove=='r'){
         Crps=1;
 
-    }if(p2.computermove=='p'){
+    }if(p2->playermove=='p'){
         Crps=2;
 
-    }if(p2.computermove=='s'){
+    }if(p2->playermove=='s'){
         Crps=3;
 
     }
@@ -39,14 +40,29 @@ char outcome;
         Prps=4;
     }
     if(Prps>Crps){
-        outcome='W';
+        p1->playerscore++;
     }else if (Prps<Crps)
     {
-        outcome='L';
+        p2->playerscore++;
     }else{
-        outcome='T';
+        p2->playerscore=p2->playerscore+0;
+        p1->playerscore=p1->playerscore+0;
 
     }
-    return outcome;
+}
+    if (p1->playerscore>=p2->playerscore)
+    {
+        winner=p1;
+    }else{
+        winner=p2;
+    }
+
+p2->playerscore=0;
+p1->playerscore=0;
+p2->movenumber=0;
+p1->movenumber=0;
+    
+
+    
     
 };
