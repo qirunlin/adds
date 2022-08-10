@@ -1,6 +1,6 @@
 #include "Player.h"
-#ifndef FISTFULL0DOLLARS_H
-#define FISTFULL0DOLLARS_H
+#ifndef FISTFULLODOLLARS_H
+#define FISTFULLODOLLARS_H
 class FistfullODollars : public Player
 {
 

@@ -1,7 +1,7 @@
 #include "Player.h"
 #ifndef PAPERDOLL_H
 #define PAPERDOLL_H
-class Paperdoll : public Player
+class PaperDoll : public Player
 {
 
 public:

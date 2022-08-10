@@ -1,6 +1,6 @@
 #include "PaperDoll.h"
 
-void Paperdoll ::Pmakemove(){
+void PaperDoll ::Pmakemove(){
     movenumber++;
     if(movenumber==4){
         movenumber=1;

@@ -1,4 +1,4 @@
-#include "Fistfull0Dollars.h"
+#include "FistfullODollars.h"
 
 void FistfullODollars ::Pmakemove(){
     movenumber++;

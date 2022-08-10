@@ -6,12 +6,12 @@
 #include "Toolbox.h"
 #include "Referee.h"
 #include "PaperDoll.h"
-#include "Fistfull0Dollars.h"
+#include "FistfullODollars.h"
 #include "RandomComputer.h"
 using namespace std;
 
 Player* Tournament ::run(std::array<Player*, 8>competitors){
-    referee r1;
+    Referee r1;
     std::array<Player*, 4>competitors2;
     std::array<Player*, 2>competitors3;
 

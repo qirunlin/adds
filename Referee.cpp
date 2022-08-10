@@ -1,7 +1,7 @@
 #include "Referee.h"
 #include<iostream>
 
-void referee::gameref(Player* p1,Player* p2){
+void Referee::gameref(Player* p1,Player* p2){
 
 int Prps;
 int Crps;
