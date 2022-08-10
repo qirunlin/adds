@@ -6,7 +6,7 @@ void Referee::gameref(Player* p1,Player* p2){
 int Prps;
 int Crps;
 
-for(int i=0;i<6;i++){
+for(int i=0;i<5;i++){
 p1->Pmakemove();
 p2->Pmakemove();
     if(p1->playermove=='r'){
