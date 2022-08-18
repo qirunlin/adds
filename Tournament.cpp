@@ -39,7 +39,7 @@ int w2=0;
      r1.gameref(competitors3.at(0),competitors3.at(1));
 
 
-     //cout<<&r1.winner->playerid;
+     //cout<<r1.winner->playerid;
      //cout<<r1.winner;
      return r1.winner;
 
