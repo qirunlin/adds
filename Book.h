@@ -6,7 +6,7 @@
 class Book: public Document{
 
 public:
-int Documentid=10;
+int Documentid;
 int getDocumentID();
 
 };

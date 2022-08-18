@@ -11,7 +11,8 @@ public:
 void addDocument(Document* book);
 Document* hasDocument(Document* book);
 std::vector<int> storedBookid;
-int libSize=0;
+int libSize;
+int maxsize=10;
 
  };
 

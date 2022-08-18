@@ -1,6 +1,6 @@
 #include "Book.h"
 
-int Book::getDocumentID()
+int Book::getDocumentID()//polymorphism 
 {
 
 return Documentid;

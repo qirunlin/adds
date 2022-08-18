@@ -1,5 +1,6 @@
 #include "Library.h"
 #include "Book.h"
+#include"Document.h"
 int main(){
 
 Book b1;

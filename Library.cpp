@@ -4,7 +4,7 @@
 
 void Library::addDocument(Document* book){
 
-   int libc=(libSize);
+   int libc=(libSize)%maxsize;
    int bookid=book->Documentid;
 
    storedBookid [libc]=bookid;
