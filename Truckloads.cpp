@@ -6,6 +6,12 @@ int numTruck=1;
 int Truckloads::numTrucks(int numCrates, int loadSize){
     int p2;
     int p1;
+
+
+    if(numCrates==0){
+        return(0);
+
+    }
     if(numCrates<=loadSize){
     return (numTruck);
 
