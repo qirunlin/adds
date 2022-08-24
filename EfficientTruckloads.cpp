@@ -1,9 +1,9 @@
-#include "EfficentTruckloads.h"
+#include "EfficientTruckloads.h"
 using namespace std;
 #include <iostream>
 
 int EnumTruck=1;
-int EfficentTruckloads::numTrucks(int numCrates, int loadSize){
+int EfficientTruckloads::numTrucks(int numCrates, int loadSize){
     int p2;
     int p1;
     if(numCrates<=loadSize){
