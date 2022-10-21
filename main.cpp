@@ -1,15 +1,19 @@
 #include "linkedlist.h"
 #include<iostream>
-#include <vector>;
+
 using namespace std;
 int main(){
     linkedlsit l1;
-int x;
+int x=0;
     string a1[10]={};
-    for(int i=0;i<10;i++){
+    for(int i=0;i<5;i++){
         cin>>a1[i];
-        x++;
-        cout<<x;
+        // if(a1[i].empty()){
+        //     x--;   
+        // }
+         x++;
+       
+        cout<<"\n:"<<x;
     }
 
     l1.ptop(a1,x);
