@@ -10,7 +10,7 @@ int error=0;
 void linkedlsit::ptop(std::string array[],int size){
     if(size%2==0){
         error=1;
-        std::cout<<"error";
+        std::cout<<"Error";
         exit(0);
 
     }

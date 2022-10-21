@@ -9,10 +9,10 @@ int x=0;
     string a2[10]={"*","5"};
     for(int i=0;i<10;i++){
         cin>>a1[i];
-         // if(a1[i].empty()){
-        //     x--;   
-         // }
-         x++;
+          if(!a1[i].empty()){
+            x++;   
+          }
+         
        
        cout<<"\n x:"<<x;
      }
