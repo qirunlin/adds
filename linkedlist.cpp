@@ -4,6 +4,7 @@ Node* n=nullptr;
 Node* t=nullptr;
 #include<string>
 int error=0;
+int B=0;
 
 
 
@@ -117,7 +118,20 @@ for(int i=0;i<size;i++){
             //std::cout<<r;
         }
     }
+    if(i<size-1){
+    if(n->next->Data=="+"||n->next->Data=="-"){
+        std::cout<<"( ";
+         B=0;
+    }
+    
+    }
+  
     std::cout<<n->Data<<" ";
+    B++;
+      if(B==3){
+        std::cout<<") ";
+
+    }
     n=n->next;
 }
 if(error==0){
