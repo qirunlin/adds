@@ -136,9 +136,10 @@ for(int i=0;i<size;i++){
     
       if(B==3){
         std::cout<<") ";
+        B=0;
         c=0;
 
-    }
+      }
     n=n->next;
 }
 if(error==0){
