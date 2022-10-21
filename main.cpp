@@ -6,15 +6,16 @@ int main(){
     linkedlsit l1;
 int x=0;
     string a1[10]={};
-    for(int i=0;i<5;i++){
+    string a2[10]={"*","5"};
+    for(int i=0;i<10;i++){
         cin>>a1[i];
-        // if(a1[i].empty()){
+         // if(a1[i].empty()){
         //     x--;   
-        // }
+         // }
          x++;
        
-        //cout<<"\n:"<<x;
-    }
+       cout<<"\n x:"<<x;
+     }
 
-    l1.ptop(a1,x);
+    //l1.ptop(a1,2);
 }

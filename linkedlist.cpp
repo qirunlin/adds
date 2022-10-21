@@ -117,14 +117,14 @@ for(int i=0;i<size;i++){
             //std::cout<<r;
         }
     }
-    std::cout<<n->Data;
+    std::cout<<n->Data<<" ";
     n=n->next;
 }
 if(error==0){
-std::cout<<"="<<r;
+std::cout<<"= "<<r;
 }
 if(error==1){
-std::cout<<"Error;";
+std::cout<<"Error";
 }
 
 
