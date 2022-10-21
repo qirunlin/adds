@@ -14,8 +14,8 @@ int x=0;
           }
          
        
-       cout<<"\n x:"<<x;
+       
      }
 
-    //l1.ptop(a1,2);
+    l1.ptop(a1,x);
 }
