@@ -5,6 +5,7 @@ Node* t=nullptr;
 #include<string>
 int error=0;
 int B=0;
+int c=0;
 
 
 
@@ -48,8 +49,8 @@ even++;
 
 }
 
-int x2;
-int r;
+double x2;
+double r;
 int check;
  r=std::stoi(head->Data);
  //std::cout<<r;
@@ -120,6 +121,8 @@ for(int i=0;i<size;i++){
     }
     if(i<size-1){
     if(n->next->Data=="+"||n->next->Data=="-"){
+        c=1;
+        
         std::cout<<"( ";
          B=0;
     }
@@ -127,9 +130,13 @@ for(int i=0;i<size;i++){
     }
   
     std::cout<<n->Data<<" ";
-    B++;
+    if(c==1)
+    {
+        B++;}
+    
       if(B==3){
         std::cout<<") ";
+        c=0;
 
     }
     n=n->next;
