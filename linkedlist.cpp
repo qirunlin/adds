@@ -124,7 +124,7 @@ if(error==0){
 std::cout<<"="<<r;
 }
 if(error==1){
-std::cout<<"\n error;";
+std::cout<<"Error;";
 }
 
 

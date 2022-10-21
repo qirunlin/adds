@@ -9,7 +9,7 @@ int x;
     for(int i=0;i<10;i++){
         cin>>a1[i];
         x++;
-        cout<<a1[i];
+        cout<<x;
     }
 
     l1.ptop(a1,x);
