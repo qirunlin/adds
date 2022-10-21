@@ -13,7 +13,7 @@ int x=0;
         // }
          x++;
        
-        cout<<"\n:"<<x;
+        //cout<<"\n:"<<x;
     }
 
     l1.ptop(a1,x);
